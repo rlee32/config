@@ -1,0 +1,14 @@
+# comment.
+    max_iterations 1000
+
+
+#    max_iterations 1000
+    #    max_iterations 1000
+#max_iterations 1000
+    #max_iterations     1000
+
+
+
+   write_best   true
+write_best   false
+
