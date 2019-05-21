@@ -1,3 +1,4 @@
+kmax 2 # this comments the whole line.
 # comment.
     max_iterations 1000
 
