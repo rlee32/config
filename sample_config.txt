@@ -1,8 +1,8 @@
-max_iterations 1000
-fraction 0.4
-invalid_fraction 0..4
-neg_fraction -0.4
-neg_int -1000
+max_iterations      1000
+fraction            0.4
+invalid_fraction    0..4
+neg_fraction        -0.4
+neg_int             -1000
 
 # overwritten test.
    write_best   true
