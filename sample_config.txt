@@ -1,15 +1,17 @@
+max_iterations 1000
+fraction 0.4
+invalid_fraction 0..4
+neg_fraction -0.4
+neg_int -1000
+
+# overwritten test.
+   write_best   true
+write_best   false
+
+# comments / ignored lines.
 kmax 2 # this comments the whole line.
-# comment.
-    max_iterations 1000
-
-
 #    max_iterations 1000
     #    max_iterations 1000
 #max_iterations 1000
     #max_iterations     1000
-
-
-
-   write_best   true
-write_best   false
 
