@@ -85,8 +85,8 @@ inline Config::Config(const std::string& file_path)
         char* observed_parse_end {nullptr};
         constexpr int base {10};
         const auto parsed_long = std::strtol(parse_start, &observed_parse_end, base);
-        const char* const correct_parse_end = parse_start + value.length();
-        if (observed_parse_end == correct_parse_end)
+        const char* const full_parse_end = parse_start + value.length();
+        if (observed_parse_end == full_parse_end)
         {
             m_dictionary[key] = parsed_long;
             continue;
@@ -94,7 +94,7 @@ inline Config::Config(const std::string& file_path)
 
         // check double.
         const auto parsed_double = std::strtod(parse_start, &observed_parse_end);
-        if (observed_parse_end == correct_parse_end)
+        if (observed_parse_end == full_parse_end)
         {
             m_dictionary[key] = parsed_double;
             continue;
