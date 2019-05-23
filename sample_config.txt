@@ -3,10 +3,10 @@ fraction            0.4
 invalid_fraction    0..4
 neg_fraction        -0.4
 neg_int             -1000
+write_best          true
 
-# overwritten test.
-   write_best   true
-write_best   false
+# overwrite test.
+    write_best      false
 
 # comments / ignored lines.
 kmax 2 # this comments the whole line.
