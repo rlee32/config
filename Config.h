@@ -20,7 +20,7 @@ class Config
 public:
     Config(const std::string& file_path);
 
-    template <typename ValueType>
+    template <typename ValueType = std::string>
     ValueType get(const std::string& key) const;
 
     template <typename ValueType>
